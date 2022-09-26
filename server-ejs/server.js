@@ -3,7 +3,7 @@ const morgan = require("morgan");
 const path = require("path");
 
 const app = express();
-const routerProductos = require("./src/routes/productos.routes.js/productos.routes.js.js.js");
+const routerProductos = require("./src/routes/productos.routes.js");
 
 // /*-------------------Middleware-------------------------*/
 app.use(express.urlencoded({ extended: true}));
